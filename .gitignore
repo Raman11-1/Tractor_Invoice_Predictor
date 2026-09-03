@@ -1,0 +1,49 @@
+# ---- Datasets & large binaries ----
+# Competition dataset (Roboflow YOLOv8 export) is not redistributed here.
+data/master_files/*.zip
+data/sample_pdfs/
+data/raw/
+*.zip
+
+# Trained weights
+models/*.pt
+models/*.onnx
+models/*.pth
+*.weights
+
+# ---- Outputs ----
+outputs/
+runs/
+sample_output/*.json
+!sample_output/result.json
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Notebooks ----
+.ipynb_checkpoints/
+
+# ---- Tooling / IDE ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- Secrets ----
+.env
+*.local
